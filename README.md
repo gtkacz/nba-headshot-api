@@ -3,7 +3,7 @@
         <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" style="height: 15ch;"><br>
     </p>
 </center>
-<br><br>
+<hr>
 
 # NBA Headshot API
 
