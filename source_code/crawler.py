@@ -69,8 +69,7 @@ def main():
                 'Team': TEAM
             })
             
-        DF = pd.DataFrame(DF_ROW_LIST)
-        DF.to_csv(f'{os.path.abspath(os.path.join(os.getcwd(), os.pardir))}\\data.csv', encoding='utf-8', index=False)
+        pd.DataFrame(DF_ROW_LIST).sort_values('Name').to_csv('data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:
         print('Request timed out.')
