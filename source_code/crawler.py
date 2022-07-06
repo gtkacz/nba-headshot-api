@@ -60,21 +60,21 @@ def main():
             
             PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
             PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
+            PLAYER_SLUG = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[-2]
             
             TEAM = ROW.find_all('td', class_ = 'text')[1].text
             
             DF_ROW_LIST.append({
                 'ID': ID,
                 'Name': PLAYER_NAME,
+                'Slug': PLAYER_SLUG,
                 'Team': TEAM
             })
             
         DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
-        DF['Name'] = DF['Name'].str.replace('.','')
-        DF['Name'] = DF['Name'].str.replace("'",'')
-        DF['Name'] = DF['Name'].str.replace(' III','')
-        DF['Name'] = DF['Name'].str.replace(' IV','')
-        DF['Name'] = DF['Name'].str.replace(' II','')
+        
+        PATTERN = '|'.join(['-iii', '-iv', '-ii', '-jr'])
+        DF['Slug'] = DF['Slug'].str.replace(PATTERN,'')
         DF.to_csv('data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:
