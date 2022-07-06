@@ -6,10 +6,8 @@
 ## Overview
 Welcome to nba-headshot-api: an open-source, free-to-use API for retrieving active NBA players' official headshots from nba.com.
 
-## URI and Versioning
-I hope to improve the API over time. This API has URIs prefixed with `https://xxx.com/players/` and is structured as described below. There is currently no rate limit.
-
-## Items
+## How to use
+This API has URIs prefixed with `https://xxx.com/players/` and is structured as described below. There is currently no rate limit.
 
 Stories, comments, jobs, Ask HNs and even polls are just items. They're identified by their ids, which are unique integers, and live under `/v0/item/<id>`.
 
