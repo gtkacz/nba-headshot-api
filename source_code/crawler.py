@@ -46,7 +46,6 @@ def main():
         BROWSER.close()
         
         SOUP = BeautifulSoup(SOURCE, 'lxml')
-        INFORMATION = {}
         
         TABLE = SOUP.find_all('table', class_ = 'players-list')[0]
         TBODY = TABLE.find_all('tbody')[0]
@@ -55,10 +54,11 @@ def main():
         
         for ROW in tqdm(TBODY.find_all('tr')):
             INFO_RAW = ROW.find_all('td', class_ = 'primary text RosterRow_primaryCol__19xPQ')[0]
+            TECHNICAL_RAW = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')
             
-            PLAYER_ID = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[2]
+            PLAYER_ID = TECHNICAL_RAW[2]
+            PLAYER_SLUG = TECHNICAL_RAW[-2]
             
-            PLAYER_SLUG = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[-2]
             PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
             PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
             
