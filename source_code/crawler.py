@@ -69,7 +69,10 @@ def main():
                 'Team': TEAM
             })
             
-        pd.DataFrame(DF_ROW_LIST).sort_values('Name').to_csv('data.csv', encoding='utf-8', index=False)
+        DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
+        DF['Name'] = DF['Name'].str.replace('.','')
+        DF['Name'] = DF['Name'].str.replace("'",'')
+        DF.to_csv('data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:
         print('Request timed out.')

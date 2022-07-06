@@ -1,5 +1,5 @@
 ID,Name,Team
-1631260,A.J. Green,MIL
+1631260,AJ Green,MIL
 1631100,AJ Griffin,ATL
 203932,Aaron Gordon,DEN
 1628988,Aaron Holiday,PHX
@@ -72,8 +72,8 @@ ID,Name,Team
 1630216,Cassius Winston,WAS
 1626224,Cedi Osman,CLE
 1629646,Charles Bassey,PHI
-1629718,Charlie Brown Jr.,PHI
-1630602,Chaundee Brown Jr.,ATL
+1629718,Charlie Brown Jr,PHI
+1630602,Chaundee Brown Jr,ATL
 1631096,Chet Holmgren,OKC
 1629002,Chimezie Metu,SAC
 1628449,Chris Boucher,TOR
@@ -93,8 +93,8 @@ ID,Name,Team
 1629012,Collin Sexton,CLE
 1630557,Corey Kispert,WAS
 202709,Cory Joseph,DET
-1626156,D'Angelo Russell,MIN
-201571,D.J. Augustin,LAL
+1626156,DAngelo Russell,MIN
+201571,DJ Augustin,LAL
 1630597,DJ Stewart,SAS
 1630227,Daishen Nix,HOU
 1630625,Dalano Banton,TOR
@@ -106,21 +106,21 @@ ID,Name,Team
 1628464,Daniel Theis,BOS
 201568,Danilo Gallinari,SAS
 201980,Danny Green,MEM
-1627863,Danuel House Jr.,UTA
+1627863,Danuel House Jr,UTA
 203967,Dario Saric,PHX
 1629647,Darius Bazley,OKC
 1629636,Darius Garland,CLE
-1630561,David Duke Jr.,BKN
+1630561,David Duke Jr,BKN
 1630525,David Johnson,TOR
 1628021,David Nwaba,HOU
 1631223,David Roddy,MEM
 1630558,Davion Mitchell,SAC
 202722,Davis Bertans,DAL
 1628432,Davon Reed,DEN
-1630549,Day'Ron Sharpe,BKN
-1628368,De'Aaron Fox,SAC
-1629631,De'Andre Hunter,ATL
-1629001,De'Anthony Melton,PHI
+1630549,DayRon Sharpe,BKN
+1628368,DeAaron Fox,SAC
+1629631,DeAndre Hunter,ATL
+1629001,DeAnthony Melton,PHI
 201599,DeAndre Jordan,PHI
 201942,DeMar DeRozan,CHI
 202326,DeMarcus Cousins,DEN
@@ -131,7 +131,7 @@ ID,Name,Team
 1630166,Deni Avdija,WAS
 203471,Dennis Schroder,HOU
 202324,Derrick Favors,OKC
-1627884,Derrick Jones Jr.,CHI
+1627884,Derrick Jones Jr,CHI
 201565,Derrick Rose,NYK
 1628401,Derrick White,BOS
 1630217,Desmond Bane,MEM
@@ -139,7 +139,7 @@ ID,Name,Team
 1629962,Devin Cannady,ORL
 1630170,Devin Vassell,SAS
 1629719,Devontae Cacok,SAS
-1628984,Devonte' Graham,NOP
+1628984,Devonte Graham,NOP
 203473,Dewayne Dedmon,MIA
 1629712,Didi Louzada,POR
 1628415,Dillon Brooks,MEM
@@ -149,13 +149,13 @@ ID,Name,Team
 1627827,Dorian Finney-Smith,DAL
 203926,Doug McDermott,SAS
 203110,Draymond Green,GSW
-1630613,Duane Washington Jr.,IND
+1630613,Duane Washington Jr,IND
 1629130,Duncan Robinson,MIA
 2730,Dwight Howard,LAL
 203939,Dwight Powell,DAL
 1629685,Dylan Windler,CLE
 1630700,Dyson Daniels,NOP
-1630604,E.J. Liddell,NOP
+1630604,EJ Liddell,NOP
 202334,Ed Davis,CLE
 203901,Elfrid Payton,PHX
 1630190,Elijah Hughes,POR
@@ -181,7 +181,7 @@ ID,Name,Team
 1629109,Gary Clark,NOP
 203914,Gary Harris,ORL
 1627780,Gary Payton II,GSW
-1629018,Gary Trent Jr.,TOR
+1629018,Gary Trent Jr,TOR
 201588,George Hill,MIL
 1627777,Georges Niang,PHI
 203507,Giannis Antetokounmpo,MIL
@@ -222,14 +222,14 @@ ID,Name,Team
 1629630,Ja Morant,MEM
 203210,JaMychal Green,OKC
 201580,JaVale McGee,PHX
-1631095,Jabari Smith Jr.,HOU
+1631095,Jabari Smith Jr,HOU
 1631133,Jabari Walker,POR
 1630702,Jaden Hardy,DAL
 1631093,Jaden Ivey,DET
 1630183,Jaden McDaniels,MIN
 1630531,Jaden Springer,PHI
 203109,Jae Crowder,PHX
-1630256,Jae'Sean Tate,HOU
+1630256,JaeSean Tate,HOU
 1631222,Jake LaRavia,MEM
 1627774,Jake Layman,MIN
 1627751,Jakob Poeltl,SAS
@@ -248,7 +248,7 @@ ID,Name,Team
 1630691,Jamorko Pickett,DET
 1630215,Jared Butler,UTA
 1629607,Jared Harper,NOP
-1628991,Jaren Jackson Jr.,MEM
+1628991,Jaren Jackson Jr,MEM
 1629020,Jarred Vanderbilt,MIN
 1628386,Jarrett Allen,CLE
 1629633,Jarrett Culver,MEM
@@ -313,16 +313,16 @@ ID,Name,Team
 1629640,Keldon Johnson,SAS
 1629833,Keljin Blevins,POR
 203482,Kelly Olynyk,DET
-1626162,Kelly Oubre Jr.,CHA
+1626162,Kelly Oubre Jr,CHA
 202689,Kemba Walker,NYK
 1631112,Kendall Brown,IND
 1629134,Kendrick Nunn,LAL
 1631113,Kennedy Chandler,MEM
-1631254,Kenneth Lofton Jr.,MEM
+1631254,Kenneth Lofton Jr,MEM
 1629026,Kenrich Williams,OKC
 203145,Kent Bazemore,LAL
 203484,Kentavious Caldwell-Pope,WAS
-1630231,Kenyon Martin Jr.,HOU
+1630231,Kenyon Martin Jr,HOU
 1631165,Keon Ellis,SAC
 1630553,Keon Johnson,POR
 1630556,Kessler Edwards,BKN
@@ -330,14 +330,14 @@ ID,Name,Team
 1628989,Kevin Huerter,ATL
 1628995,Kevin Knox II,ATL
 201567,Kevin Love,CLE
-1629645,Kevin Porter Jr.,HOU
+1629645,Kevin Porter Jr,HOU
 1626172,Kevon Looney,GSW
 1631215,Khalifa Diop,CLE
 203920,Khem Birch,TOR
 203114,Khris Middleton,MIL
 1630165,Killian Hayes,DET
 1629681,Killian Tillie,MEM
-1630184,Kira Lewis Jr.,NOP
+1630184,Kira Lewis Jr,NOP
 202691,Klay Thompson,GSW
 204001,Kristaps Porzingis,WAS
 203937,Kyle Anderson,MEM
@@ -349,7 +349,7 @@ ID,Name,Team
 1630205,Lamar Stevens,CLE
 202362,Lance Stephenson,IND
 1629013,Landry Shamet,PHX
-1626204,Larry Nance Jr.,NOP
+1626204,Larry Nance Jr,NOP
 1628374,Lauri Markkanen,CLE
 2544,LeBron James,LAL
 1630195,Leandro Bolmaro,MIN
@@ -374,7 +374,7 @@ ID,Name,Team
 1630238,Malik Fitts,BOS
 1628370,Malik Monk,LAL
 1630699,MarJon Beauchamp,MIL
-202694,Marcus Morris Sr.,LAC
+202694,Marcus Morris Sr,LAC
 203935,Marcus Smart,BOS
 1631109,Mark Williams,CHA
 1628365,Markelle Fultz,ORL
@@ -394,7 +394,7 @@ ID,Name,Team
 1629622,Max Strus,MIA
 1628467,Maxi Kleber,DAL
 1630593,McKinley Wright IV,MIN
-1629008,Michael Porter Jr.,DEN
+1629008,Michael Porter Jr,DEN
 1628969,Mikal Bridges,PHX
 201144,Mike Conley,UTA
 203488,Mike Muscala,OKC
@@ -435,14 +435,14 @@ ID,Name,Team
 1630209,Omer Yurtseven,MIA
 1630168,Onyeka Okongwu,ATL
 1629052,Oshae Brissett,IND
-203490,Otto Porter Jr.,GSW
+203490,Otto Porter Jr,GSW
 1631172,Ousmane Dieng,OKC
-200782,P.J. Tucker,MIA
-1629023,P.J. Washington,CHA
+200782,PJ Tucker,MIA
+1629023,PJ Washington,CHA
 1631094,Paolo Banchero,ORL
 1627783,Pascal Siakam,TOR
 1626192,Pat Connaughton,MIL
-1631116,Patrick Baldwin Jr.,GSW
+1631116,Patrick Baldwin Jr,GSW
 201976,Patrick Beverley,MIN
 1630172,Patrick Williams,CHI
 201988,Patty Mills,BKN
@@ -454,9 +454,9 @@ ID,Name,Team
 1630173,Precious Achiuwa,TOR
 1629656,Quentin Grimes,NYK
 1629683,Quinndary Weatherspoon,GSW
-1630181,R.J. Hampton,ORL
+1630181,RJ Hampton,ORL
 1629628,RJ Barrett,NYK
-1630612,RJ Nembhard Jr.,CLE
+1630612,RJ Nembhard Jr,CLE
 200765,Rajon Rondo,CLE
 203526,Raul Neto,WAS
 203493,Reggie Bullock,DAL
@@ -470,7 +470,7 @@ ID,Name,Team
 203918,Rodney Hood,LAC
 203585,Rodney McGruder,DET
 1629641,Romeo Langford,SAS
-1626220,Royce O'Neale,BKN
+1626220,Royce ONeale,BKN
 200752,Rudy Gay,UTA
 203497,Rudy Gobert,UTA
 1629060,Rui Hachimura,WAS
@@ -484,7 +484,7 @@ ID,Name,Team
 1630583,Santi Aldama,MEM
 1630567,Scottie Barnes,TOR
 1630575,Scottie Lewis,CHA
-1630590,Scotty Pippen Jr.,LAL
+1630590,Scotty Pippen Jr,LAL
 201586,Serge Ibaka,MIL
 203552,Seth Curry,BKN
 1631101,Shaedon Sharpe,POR
@@ -498,8 +498,8 @@ ID,Name,Team
 1628425,Sterling Brown,HOU
 203500,Steven Adams,MEM
 1629004,Svi Mykhailiuk,TOR
-204456,T.J. McConnell,IND
-203933,T.J. Warren,IND
+204456,TJ McConnell,IND
+203933,TJ Warren,IND
 201959,Taj Gibson,NYK
 1629659,Talen Horton-Tucker,LAL
 1631106,Tari Eason,HOU
@@ -514,7 +514,7 @@ ID,Name,Team
 1630177,Theo Maledon,OKC
 1629033,Theo Pinson,DAL
 1628418,Thomas Bryant,WAS
-203501,Tim Hardaway Jr.,DAL
+203501,Tim Hardaway Jr,DAL
 1627789,Timothe Luwawu-Cabarrot,ATL
 202699,Tobias Harris,PHI
 203107,Tomas Satoransky,WAS
@@ -533,9 +533,9 @@ ID,Name,Team
 1626168,Trey Lyles,SAC
 1630530,Trey Murphy III,NOP
 202684,Tristan Thompson,CHI
-1628972,Troy Brown Jr.,LAL
+1628972,Troy Brown Jr,LAL
 1629660,Ty Jerome,OKC
-1631102,TyTy Washington Jr.,HOU
+1631102,TyTy Washington Jr,HOU
 1629076,Tyler Cook,CHI
 1629639,Tyler Herro,MIA
 1630169,Tyrese Haliburton,IND
@@ -545,22 +545,22 @@ ID,Name,Team
 1628962,Udoka Azubuike,UTA
 2617,Udonis Haslem,MIA
 1630586,Usman Garuba,HOU
-1630176,Vernon Carey Jr.,WAS
+1630176,Vernon Carey Jr,WAS
 203506,Victor Oladipo,MIA
-1631246,Vince Williams Jr.,MEM
+1631246,Vince Williams Jr,MEM
 1630249,Vit Krejci,OKC
 1628427,Vlatko Cancar,DEN
 1631117,Walker Kessler,MIN
 201961,Wayne Ellington,LAL
-1628976,Wendell Carter Jr.,ORL
-1631111,Wendell Moore Jr.,MIN
+1628976,Wendell Carter Jr,ORL
+1631111,Wendell Moore Jr,MIN
 1629117,Wenyen Gabriel,LAL
 202083,Wesley Matthews,MIL
 203115,Will Barton,DEN
 1626195,Willy Hernangomez,NOP
 1629875,Xavier Moon,LAC
 1630270,Xavier Sneed,UTA
-1630214,Xavier Tillman Sr.,MEM
+1630214,Xavier Tillman Sr,MEM
 1631161,Yannick Nzosa,WAS
 1629139,Yuta Watanabe,TOR
 1630582,Yves Pons,MEM
