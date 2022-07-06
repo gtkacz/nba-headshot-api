@@ -1,4 +1,7 @@
-![NBA Logo](https://logodownload.org/wp-content/uploads/2016/11/nba-logo-1.png)
+![NBA Logo](https://cdn.nba.com/logos/leagues/logo-nba.svg)
 <br><br>
 
-# Welcome to nba-headshot-api: An open API for retrieving active NBA players' official headshots
+# NBA Headshot API
+
+## Overview
+Welcome to nba-headshot-api: an open-source, free-to-use API for retrieving active NBA players' official headshots from nba.com.
