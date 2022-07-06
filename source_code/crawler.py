@@ -61,7 +61,7 @@ def main():
             PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
             PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
             
-            TEAM = ''
+            TEAM = ROW.find_all('td', class_ = 'text')[1].text
             
             DF_ROW_LIST.append({
                 'ID': ID,
