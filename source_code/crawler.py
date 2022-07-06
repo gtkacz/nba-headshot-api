@@ -56,19 +56,19 @@ def main():
         for ROW in tqdm(TBODY.find_all('tr')):
             INFO_RAW = ROW.find_all('td', class_ = 'primary text RosterRow_primaryCol__19xPQ')[0]
             
-            ID = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[2]
+            PLAYER_ID = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[2]
             
+            PLAYER_SLUG = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[-2]
             PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
             PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
-            PLAYER_SLUG = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[-2]
             
-            TEAM = ROW.find_all('td', class_ = 'text')[1].text
+            PLAYER_TEAM = ROW.find_all('td', class_ = 'text')[1].text
             
             DF_ROW_LIST.append({
-                'ID': ID,
-                'Name': PLAYER_NAME,
+                'ID': PLAYER_ID,
                 'Slug': PLAYER_SLUG,
-                'Team': TEAM
+                'Name': PLAYER_NAME,
+                'Team': PLAYER_TEAM
             })
             
         DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
