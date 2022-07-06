@@ -1,4 +1,8 @@
-![NBA Logo](https://cdn.nba.com/logos/leagues/logo-nba.svg)
+<center>
+    <p align="center">
+        <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" style="height: 15ch;"><br>
+    </p>
+</center>
 <br><br>
 
 # NBA Headshot API
