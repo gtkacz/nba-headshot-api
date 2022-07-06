@@ -72,6 +72,9 @@ def main():
         DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
         DF['Name'] = DF['Name'].str.replace('.','')
         DF['Name'] = DF['Name'].str.replace("'",'')
+        DF['Name'] = DF['Name'].str.replace(' III','')
+        DF['Name'] = DF['Name'].str.replace(' IV','')
+        DF['Name'] = DF['Name'].str.replace(' II','')
         DF.to_csv('data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:
