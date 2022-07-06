@@ -1,4 +1,4 @@
-import re, warnings, pandas as pd
+import re, warnings, pandas as pd, os
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 from pathlib import Path
@@ -70,7 +70,7 @@ def main():
             })
             
         DF = pd.DataFrame(DF_ROW_LIST)
-        print(DF)
+        DF.to_csv(f'{os.path.abspath(os.path.join(os.getcwd(), os.pardir))}\\data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:
         print('Request timed out.')
