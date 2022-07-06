@@ -1,6 +1,5 @@
-import re, warnings
+import re, warnings, pandas as pd
 from tqdm import tqdm
-from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
 from selenium import webdriver
@@ -31,7 +30,7 @@ def main():
         BROWSER = webdriver.Chrome(PATH, options=OPTIONS)
         
     except WebDriverException:
-        BINARY = 'D:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+        BINARY = r'D:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
         OPTIONS.binary_location = BINARY
         OPTIONS.add_experimental_option('excludeSwitches', ['enable-logging'])
         BROWSER = webdriver.Chrome(PATH, options=OPTIONS)
@@ -47,16 +46,34 @@ def main():
         BROWSER.close()
         
         SOUP = BeautifulSoup(SOURCE, 'lxml')
+        INFORMATION = {}
         
-        TABLE = SOUP.find_all('table', class_ = 'players-list')[0].find_all('tbody')[0]
+        TABLE = SOUP.find_all('table', class_ = 'players-list')[0]
+        TBODY = TABLE.find_all('tbody')[0]
         
-        for ROW in TABLE.find_all('tr', class_ = 'players-list'):
-            pass
+        DF_ROW_LIST = []
+        
+        for ROW in tqdm(TBODY.find_all('tr')):
+            INFO_RAW = ROW.find_all('td', class_ = 'primary text RosterRow_primaryCol__19xPQ')[0]
+            
+            ID = INFO_RAW.find_all('a', href=True)[0]['href'].split('/')[2]
+            
+            PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
+            PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
+            
+            TEAM = ''
+            
+            DF_ROW_LIST.append({
+                'ID': ID,
+                'Name': PLAYER_NAME,
+                'Team': TEAM
+            })
+            
+        DF = pd.DataFrame(DF_ROW_LIST)
+        print(DF)
     
-    except:
-        pass
-    
-    IMG_URL = f'https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png'
+    except TimeoutException:
+        print('Request timed out.')
     
 if __name__ == '__main__':
     warnings.filterwarnings('ignore')
