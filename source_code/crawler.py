@@ -61,12 +61,15 @@ def main():
             PLAYER_NAME_RAW = INFO_RAW.find_all('p', class_ = 't6')
             PLAYER_NAME = f'{PLAYER_NAME_RAW[0].text} {PLAYER_NAME_RAW[1].text}'
             
+            PLAYER_POSITION = ROW.find_all('td', class_ = 'text')[2].text
+            
             PLAYER_TEAM = ROW.find_all('td', class_ = 'text')[1].text
             
             DF_ROW_LIST.append({
                 'ID': PLAYER_ID,
                 'Slug': PLAYER_SLUG,
                 'Name': PLAYER_NAME,
+                'Position': PLAYER_POSITION,
                 'Team': PLAYER_TEAM
             })
             
