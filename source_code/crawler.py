@@ -72,7 +72,7 @@ def main():
             
         DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
         
-        PATTERN = '|'.join(['-iii', '-ii', '-iv', '-jr', '-sr'])
+        PATTERN = '|'.join(['-iii$', '-ii$', '-iv$', '-jr$', '-sr$'])
         DF['Slug'] = DF['Slug'].str.replace(PATTERN, '')
         DF.to_csv('data.csv', encoding='utf-8', index=False)
     
