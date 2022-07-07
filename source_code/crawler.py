@@ -6,8 +6,7 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException, TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait, Select
 
 def tag_cleanup(html):
     html = str(html)
@@ -73,8 +72,8 @@ def main():
             
         DF = pd.DataFrame(DF_ROW_LIST).sort_values('Name')
         
-        PATTERN = '|'.join(['-iii', '-iv', '-ii', '-jr'])
-        DF['Slug'] = DF['Slug'].str.replace(PATTERN,'')
+        PATTERN = '|'.join(['-iii', '-ii', '-iv', '-jr', '-sr'])
+        DF['Slug'] = DF['Slug'].str.replace(PATTERN, '')
         DF.to_csv('data.csv', encoding='utf-8', index=False)
     
     except TimeoutException:

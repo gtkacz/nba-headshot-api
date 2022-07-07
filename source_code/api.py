@@ -20,13 +20,13 @@ class Players(Resource):
         return {'data': data}, 200
     
     def post(self):
-        return {'Message': 'Action not allowed.'}, 405
+        return {'message': 'Action not allowed.'}, 405
     
     def put(self):
-        return {'Message': 'Action not allowed.'}, 405
+        return {'message': 'Action not allowed.'}, 405
     
     def delete(self):
-        return {'Message': 'Action not allowed.'}, 405
+        return {'message': 'Action not allowed.'}, 405
 
 class Teams(Resource):
     pass
